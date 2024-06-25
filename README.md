@@ -50,8 +50,32 @@ press digit 2 , to read I2C master data from I2C slave
 
 ![image](https://github.com/released/M030GBSP_I2C0_Slave_I2C1_Master/blob/main/LA_digit_5.jpg)
 
+	
+8. press digit 6 , to send I2C master write command , 
 
-8. when press digit 9 (send I2C master write command and read command) , below is LA capture and log
+press digit 7 , to read I2C master data from I2C slave
+
+
+![image](https://github.com/released/M030GBSP_I2C0_Slave_I2C1_Master/blob/main/log_digit_6_digit_7.jpg)
+
+
+![image](https://github.com/released/M030GBSP_I2C0_Slave_I2C1_Master/blob/main/LA_digit_6_digit_7.jpg)
+
+
+9. when press digit 8 (send I2C master write command and read command) , below is LA capture and log
+
+![image](https://github.com/released/M030GBSP_I2C0_Slave_I2C1_Master/blob/main/LA_digit_8_0.jpg)
+
+![image](https://github.com/released/M030GBSP_I2C0_Slave_I2C1_Master/blob/main/LA_digit_8_1.jpg)
+
+![image](https://github.com/released/M030GBSP_I2C0_Slave_I2C1_Master/blob/main/log_digit_8.jpg)
+
+if enable define : DEBUG_LOG_SLAVE_LV2 ,
+
+![image](https://github.com/released/M030GBSP_I2C0_Slave_I2C1_Master/blob/main/log_digit_8_DEBUG_LOG_SLAVE_LV2.jpg)
+
+
+10. when press digit 9 (send I2C master write command and read command) , below is LA capture and log
 
 ![image](https://github.com/released/M030GBSP_I2C0_Slave_I2C1_Master/blob/main/LA_digit_9_0.jpg)
 

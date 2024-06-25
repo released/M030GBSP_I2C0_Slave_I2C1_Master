@@ -667,7 +667,7 @@ void I2Cx_Master_example (uint8_t res)
 
 		case 6 :
 			addr = 0x15;
-			reg = 0x7A;
+			reg = 0x4A;
 			len = 8;
 
 			//calculate crc
@@ -704,7 +704,7 @@ void I2Cx_Master_example (uint8_t res)
 
 		case 7 :
 			addr = 0x15;
-			reg = 0x7A;
+			reg = 0x4A;
 			len = 8;
 		
 			//clear data
@@ -734,11 +734,12 @@ void I2Cx_Master_example (uint8_t res)
 			break;
 
 		case 8 : 
-			execute_time = 0;
+			execute_time = 5;
+			DataCnt = 0x10;
 			do
 			{
 				addr = 0x15;
-				reg = 0x7A;
+				reg = 0x80;
 				len = 8;
 			
 				//fill data
@@ -786,7 +787,7 @@ void I2Cx_Master_example (uint8_t res)
 				}
 
 				printf("\r\n\r\n\r\n");	
-			} while (execute_time++ < 1);
+			} while (execute_time--);
 				
 			break;
 			
